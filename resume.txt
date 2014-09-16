@@ -1,0 +1,224 @@
+
+                                  Elias Ross
+                  1025 NE 73RD Street - Seattle WA 98115 - USA
+                               +1-425-466-8702
+         http://www.noderunner.net/~genman/ - genman@noderunner.net
+
+Summary
+
+Architect or technical lead developer with over twenty years of experience
+developing distributed enterprise services, database and personal computer
+applications, development tools, open source solutions, and technical designs.
+Highly capable, self-motivated, team player versed in Java, C++, in both
+UNIX and Windows environments. Familiar with wireless applications and
+technology integration.
+
+Employment History
+
+
+APPLE, INC
+Production Operations Software Designer, December 2010-Present
+
+Designed and developed the monitoring solution for iAd. iAd is Apple's
+ad serving network comprising of thousands of hosts. I was in charge
+for providing monitoring for all systems, applications and third-party
+services such as Tomcat/JBoss, Oracle, Hadoop, MySQL, MongoDB, Redis,
+Memcache, NetScaler, etc. I worked with all teams within iAd iAd to
+develop a complete monitoring system. A team of contractors onshore and
+offshore support this system and work is ongoing.
+
+I developed the initial monitoring platform using Nagios and Puppet,
+and eventually evolved it into a highly scalable and easier to manage
+system using RedHat's RHQ platform. RHQ is built on top of Cassandra
+and Oracle Database. The system works across multiple data centers. On
+top of RHQ, I developed a custom framework for providing easy-to-build
+dashboards for all systems, including business intelligence and reporting.
+
+I also provided day-to-day assistance to deployment and operations team
+members for working with git, Puppet, and packaging tools such as RPM.
+
+I worked closely with RedHat, providing patches and fixes through the
+Apple open source process. I am a recognized and prolific contributor
+to the RHQ product.
+
+In addition, I worked on designing and developing a Passbook notification
+and update solution for iAd designed for supporting millions of devices,
+using clustered JMS and Cassandra. I was first to adopt CDI (JEE)
+technology and wrote extensions for other team members to expose KPIs
+through Java annotations for monitoring purposes.
+
+
+TELECOMMUNICATION SYSTEMS / LOCATION LOGIC, LLC
+Seattle, Washington
+Principal Computer Systems Developer, February 2009-December 2010
+
+Key developer and support person for entire Location Positioning System
+(LPS) for Verizon Wireless; once the responsibility of a large developer
+team. This system processed millions of mobile station transactions a
+day without fault.
+
+Developed a prototype GLA ("Global Location Agent") solution for Huawei,
+a network technology reseller, in under six weeks. Worked with the
+customer in Shenzhen China to test our solution on site.
+
+
+AUTODESK
+San Rafael, California
+Principal Software Engineer, September 2006-February 2009
+
+Solutions lead for the Verizon Windows Mobile project. Primary developer
+for various new server-side components for Verizon billing systems
+integration and service authorization for support of advanced devices.
+
+Introduced to team new technologies for creating better products and
+productivity. Technologies included JPA/Hibernate, Maven, JMX, and
+distributed network caching.
+
+Wrote a performance test harness for the "user-plane mobile positioning
+client", or "UP-MPC" component, a server component used at Verizon,
+Sprint, and Alltel.
+
+Member and committer for the Apache Software Foundation.
+
+
+VERISIGN (ACQUIRED AS M-QUBE)
+Boston, Massachusetts
+Software Architect, 2002­2006
+
+Developed a distributed premium messaging billing platform for all major U.S.
+and many Canadian carriers. Sole author of critical messaging delivery
+components for m-Qube, including SMS, IM, SMTP. Helped take the company from
+20 people to over 200.
+* Designed, built, maintained an SMS/SMPP messaging server called "SMS
+Gateway", which delivered \$85 million in premium messaging for 2005.
+Created a custom configuration language to support SMPP routing and
+connectivity for over 100 connected customers. System is capable of 3000
+standard-rate message deliveries a second. Also, designed a billing
+server which can process and deliver 200-300 billing or subscription
+messages per second.
+* Developed a "dialog XML" language (similar to voice XML) and plug-in
+system for handling stateful conversations for SMS and other messaging services.
+* Recognized contributor to the JBoss project, specifically features for
+the JBoss MQ (messaging) and JBoss Cache products, such as scheduled and
+delayed message delivery.
+
+
+OPENWAVE
+Bellevue, Washington
+Senior Software Developer, 2000­2002
+
+Responsible for creating components to support enterprise-level services
+for determining mobile handset presence and location. Responsible for own
+unit-testing, end-to-end testing, technical requirements and design
+documents.
+* Assisted developers in two teams simultaneously; often reassigned
+to support tasks that were behind schedule. Mentored UI team in
+UNIX, PHP, JSP, and Java.
+* Completed two patent applications on document compression (both awarded 
+in 2005) and received recognition for three other invention submissions.
+* Created an XML pull-parser and XML-RPC library, to support streamed
+document delivery. See http://e-xml.sf.net
+
+Software Developer 1999­2000
+
+Used and leveraged existing components to build instant messaging application.
+Used mobile protocols and network simulators for delivery. Learned to write
+detailed design documentation and specifications based on non-technical
+customer requirements; used UML and the Unified Process. Consistently finished
+all tasks ahead of schedule. When free, assisted mobile phone interface team.
+
+
+BELLEVUE COMMUNITY COLLEGE
+Kirkland, Washington
+Instructor, 2001­2002
+
+Computer instruction, teaching UNIX. Responsible for creation
+of course materials and content.
+
+
+CATDADDY GAMES
+Bellevue, Washington
+Software Developer, 1998­2000
+
+Responsible for programming and helping deliver various games and building a
+3D game engine. Helped complete the game "Full Strength Challenge" as one of
+two developers.
+
+* Sole and lead developer for UI, network components, sound, input, and 3D
+model export utilities.
+* Ported Windows network match server to Linux.
+* Designed and a implemented prototype 3D driving and battle game.
+
+
+BERLITZ
+Sendai, Japan
+Teacher, 1998
+
+Taught private English lessons to business clients. Learned the Berlitz
+language teaching approach.
+
+
+STARWAVE (PRESENTLY GO.COM)
+Bellevue, Washington
+Intern, 1996­1997
+
+Worked with the online commerce division to develop database system for
+commerce transactions. Later transferred to work with online fantasy sports
+games (pre-Servlet, but Java-based). Sole author of utility software for
+scheduling services, live systems monitoring, bug-tracking, etc. Learned
+Java, Perl, ASP, SQL, etc.
+
+
+STEEL SILHOUETTES
+Seattle, Washington
+Computer Consultant, 1994­1997
+
+Web site authoring, custom software for industrial machine cutting
+machine, systems troubleshooting.
+
+
+Education
+
+UNIVERSITY OF WASHINGTON
+Seattle, Washington
+1995­1999
+
+Awarded Bachelor of Science degree. Major in applied computation math science.
+Dean's list.
+
+TOHOKU UNIVERSITY
+Sendai, Japan
+1997­1998
+
+Exchange student in Japan in the Engineering department. Part-time
+research in Japanese character recognition, but mostly focused on
+language skills.
+
+
+Technologies
+
+[Java] 15 years. JEE including JPA, CDI; Maven/Gradle. 
+[Ver Control] git, Subversion, Perforce, CVS, Clearquest, VSS.
+[Puppet] 4 years, Ruby templates, large deployments and config management.
+[C/C++] 4 years. Solaris cc, gcc, VC++, STL, POSIX.
+[Perl] 4 years experience.
+[JavaScript] 2+ years, mostly Rhino scripting and some UI.
+[Python] 1 year experience.
+[Cassandra] 1 year, deployment and schema design.
+[SQL] 4 years, Oracle, MySQL, SQL Server, stored procedures.
+[UNIX] 15+ years. Linux (OEL/RHEL 5/6), Solaris, BSD variants.
+[Networks] 4 years. TCP/IP, HTTP, HTTPS, SMPPv3, UDP.
+[Shells] 6 years. Bourne, BASH.
+
+Others: Hibernate, Windows, XML, OOP, UML, LDAP, make, ant, Pascal,
+Scheme, Ruby, ASP, DirectX, 3D Max, Assembler and compiler design.
+
+
+Activities and Interests
+    Cooking
+    Road cycling and touring
+    Sea kayaking
+    Japanese culture and language, volunteering at anime conventions
+    Hiking and mountaineering
+    Backcountry skiing
+    Free Software
