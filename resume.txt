@@ -204,6 +204,7 @@ Technologies
 [JavaScript] 2+ years, mostly Rhino scripting and some UI.
 [Python] 1 year experience.
 [Cassandra] 1 year, deployment and schema design.
+[Hadoop] 3 years, deployment, monitoring; Hive, Oozie, Flume.
 [SQL] 4 years, Oracle, MySQL, SQL Server, stored procedures.
 [UNIX] 15+ years. Linux (OEL/RHEL 5/6), Solaris, BSD variants.
 [Networks] 4 years. TCP/IP, HTTP, HTTPS, SMPPv3, UDP.
