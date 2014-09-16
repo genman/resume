@@ -2,7 +2,8 @@
                                   Elias Ross
                   1025 NE 73RD Street - Seattle WA 98115 - USA
                                +1-425-466-8702
-         http://www.noderunner.net/~genman/ - genman@noderunner.net
+         http://www.noderunner.net/~genman/ - https://github.com/genman
+							genman@noderunner.net
 
 Summary
 
@@ -11,28 +12,29 @@ developing distributed enterprise services, database and personal computer
 applications, development tools, open source solutions, and technical designs.
 Highly capable, self-motivated, team player versed in Java, C++, in both
 UNIX and Windows environments. Familiar with wireless applications and
-technology integration.
+technology integration. Able to speak, read, and write Japanese. 
 
 Employment History
 
 
 APPLE, INC
-Production Operations Software Designer, December 2010-Present
+Production Operations Software Architect, December 2010-Present
 
-Designed and developed the monitoring solution for iAd. iAd is Apple's
-ad serving network comprising of thousands of hosts. I was in charge
-for providing monitoring for all systems, applications and third-party
-services such as Tomcat/JBoss, Oracle, Hadoop, MySQL, MongoDB, Redis,
-Memcache, NetScaler, etc. I worked with all teams within iAd iAd to
+Designed, developed, and deployed the monitoring solution for iAd. iAd
+is Apple's ad serving network comprised of thousands of hosts. I was
+in charge for providing monitoring for all systems, applications and
+third-party services such as Tomcat/JBoss, Oracle, Hadoop, MySQL, MongoDB,
+Redis, Memcache, NetScaler, etc. I worked with all teams within iAd to
 develop a complete monitoring system. A team of contractors onshore and
 offshore support this system and work is ongoing.
 
 I developed the initial monitoring platform using Nagios and Puppet,
-and eventually evolved it into a highly scalable and easier to manage
-system using RedHat's RHQ platform. RHQ is built on top of Cassandra
-and Oracle Database. The system works across multiple data centers. On
-top of RHQ, I developed a custom framework for providing easy-to-build
-dashboards for all systems, including business intelligence and reporting.
+and eventually it evolved into a highly scalable and easier to manage
+system using RedHat's RHQ platform. RHQ is built on top of JBoss EAP
+and uses Cassandra and Oracle Database. The system works across multiple
+data centers. On top of RHQ, I developed a custom framework for providing
+easy-to-build dashboards for all systems, including business intelligence
+and reporting.
 
 I also provided day-to-day assistance to deployment and operations team
 members for working with git, Puppet, and packaging tools such as RPM.
@@ -92,15 +94,15 @@ components for m-Qube, including SMS, IM, SMTP. Helped take the company from
 * Designed, built, maintained an SMS/SMPP messaging server called "SMS
 Gateway", which delivered \$85 million in premium messaging for 2005.
 Created a custom configuration language to support SMPP routing and
-connectivity for over 100 connected customers. System is capable of 3000
+connectivity for over 100 connected customers. System was capable of 3000
 standard-rate message deliveries a second. Also, designed a billing
-server which can process and deliver 200-300 billing or subscription
+server to process and deliver 200-300 billing or subscription
 messages per second.
 * Developed a "dialog XML" language (similar to voice XML) and plug-in
 system for handling stateful conversations for SMS and other messaging services.
 * Recognized contributor to the JBoss project, specifically features for
 the JBoss MQ (messaging) and JBoss Cache products, such as scheduled and
-delayed message delivery.
+delayed message delivery which are now standard JMS features.
 
 
 OPENWAVE
@@ -121,18 +123,16 @@ document delivery. See http://e-xml.sf.net
 
 Software Developer 1999­2000
 
-Used and leveraged existing components to build instant messaging application.
-Used mobile protocols and network simulators for delivery. Learned to write
-detailed design documentation and specifications based on non-technical
-customer requirements; used UML and the Unified Process. Consistently finished
-all tasks ahead of schedule. When free, assisted mobile phone interface team.
+Used and leveraged existing components to build an instant messaging
+application supporting mobile presence. Used mobile protocols and network
+simulators for testing on SS7 networks.  Used UML and the Unified Process.
 
 
 BELLEVUE COMMUNITY COLLEGE
 Kirkland, Washington
 Instructor, 2001­2002
 
-Computer instruction, teaching UNIX. Responsible for creation
+Computer instruction, teaching a class on UNIX. Responsible for creation
 of course materials and content.
 
 
@@ -162,7 +162,7 @@ STARWAVE (PRESENTLY GO.COM)
 Bellevue, Washington
 Intern, 1996­1997
 
-Worked with the online commerce division to develop database system for
+Worked with the online commerce division to develop a database system for
 commerce transactions. Later transferred to work with online fantasy sports
 games (pre-Servlet, but Java-based). Sole author of utility software for
 scheduling services, live systems monitoring, bug-tracking, etc. Learned
@@ -184,13 +184,12 @@ Seattle, Washington
 1995­1999
 
 Awarded Bachelor of Science degree. Major in applied computation math science.
-Dean's list.
 
 TOHOKU UNIVERSITY
 Sendai, Japan
 1997­1998
 
-Exchange student in Japan in the Engineering department. Part-time
+Exchange student in Japan in the engineering school. Part-time
 research in Japanese character recognition, but mostly focused on
 language skills.
 
@@ -210,7 +209,7 @@ Technologies
 [Networks] 4 years. TCP/IP, HTTP, HTTPS, SMPPv3, UDP.
 [Shells] 6 years. Bourne, BASH.
 
-Others: Hibernate, Windows, XML, OOP, UML, LDAP, make, ant, Pascal,
+Others: SNMP, Hibernate, Windows, XML, OOP, UML, LDAP, make, ant, Pascal,
 Scheme, Ruby, ASP, DirectX, 3D Max, Assembler and compiler design.
 
 

@@ -4,10 +4,10 @@
 \usepackage{palatino}
 \usepackage{geometry}
 \usepackage{multicol}
-% \geometry{textheight=9in, textwidth=6.5in}
 \begin{document}
 \name{Elias Ross}
-\address{6742 Cleopatra PL NW - Seattle Washington 98117 - 425-466-8702 \\
+\address{
+1025 NE 73RD Street - Seattle WA 98115 - USA - 425-466-8702 \\
 http://www.noderunner.net/\%7Egenman/ - genman@noderunner.net }
 
 \setlength{\parindent}{0pt}
@@ -19,42 +19,100 @@ Architect or technical-lead developer with over fifteen years of experience
 developing distributed enterprise services, database and personal computer
 applications, development tools, open source solutions, and technical designs.
 Highly capable, self-motivated, team player versed in Java and C++, in both
-UNIX and Windows environments.  Able to speak and write Japanese. 
+technology integration. Able to speak, read, and write Japanese. 
 
 \subsection*{Employment}
+
+\employer{Apple} \location{Cupertino, California} 
+\dates{Production Operations Software Architect, December 2010--Present}
+
+Designed, developed, and deployed the monitoring solution for iAd. iAd
+is Apple's ad serving network comprised of thousands of hosts. I was
+in charge for providing monitoring for all systems, applications and
+third-party services such as Tomcat/JBoss, Oracle, Hadoop, MySQL, MongoDB,
+Redis, Memcache, NetScaler, etc. I worked with all teams within iAd to
+develop a complete monitoring system. A team of contractors onshore and
+offshore support this system and work is ongoing.
+
+I developed the initial monitoring platform using Nagios and Puppet,
+and eventually it evolved into a highly scalable and easier to manage
+system using RedHat's RHQ platform. RHQ is built on top of JBoss EAP
+and uses Cassandra and Oracle Database. The system works across multiple
+data centers. On top of RHQ, I developed a custom framework for providing
+easy-to-build dashboards for all systems, including business intelligence
+and reporting.
+
+I also provided day-to-day assistance to deployment and operations team
+members for working with git, Puppet, and packaging tools such as RPM.
+
+I worked closely with RedHat, providing patches and fixes through the
+Apple open source process. I am a recognized and prolific contributor
+to the RHQ product.
+
+In addition, I worked on designing and developing a Passbook notification
+and update solution for iAd designed for supporting millions of devices,
+using clustered JMS and Cassandra. I was first to adopt CDI (JEE)
+technology and wrote extensions for other team members to expose KPIs
+through Java annotations for monitoring purposes.
+
+
+\employer{Telecommunication Systems and Location Logic, LLC} \location{Seattle, Washington} 
+\dates{Principal Computer Systems Developer, February 2009-December 2010}
+
+Key developer and support person for entire Location Positioning System
+(LPS) for Verizon Wireless; once the responsibility of a large developer
+team. This system processed millions of mobile station transactions a
+day without fault.
+
+Developed a prototype GLA ("Global Location Agent") solution for Huawei,
+a network technology reseller, in under six weeks. Worked with the
+customer in Shenzhen China to test our solution on site.
+
+
+\employer{Autodesk} \location{San Rafael, Massachusetts} 
+\dates{Principal Software Engineer, September 2006-February 2009}
+
+Solutions lead for the Verizon Windows Mobile project. Primary developer
+for various new server-side components for Verizon billing systems
+integration and service authorization for support of advanced devices.
+
+Introduced to team new technologies for creating better products and
+productivity. Technologies included JPA/Hibernate, Maven, JMX, and
+distributed network caching.
+
+Wrote a performance test harness for the "user-plane mobile positioning
+client", or "UP-MPC" component, a server component used at Verizon,
+Sprint, and Alltel.
+
+Member and committer for the Apache Software Foundation.
 
 \employer{Verisign (acquired as m-Qube)} \location{Boston, Massachusetts} 
 \dates{Software Architect, 2002--2006}
 Developed a distributed premium messaging billing platform for all major U.S.
-and many Canadian carriers.  Sole author of critical messaging delivery
-components for m-Qube, including SMS, IM, SMTP.  Helped take the company from
+and many Canadian carriers. Sole author of critical messaging delivery
+components for m-Qube, including SMS, IM, SMTP. Helped take the company from
 20 people to over 200.
 \begin{items}
 \item Designed, built, maintained an SMS/SMPP messaging server called "SMS
 Gateway", which delivered \$85 million in premium messaging for 2005.  Created
 a custom language to support SMPP routing and connectivity for over 100
-connected customers.  System is capable of 3000 standard-rate message
+connected customers.  System was capable of 3000 standard-rate message
 deliveries a second.  Also, designed a billing server which can process and
 deliver 200-300 billing or subscription messages per second.
-\item Wrote scripts and harnesses for testing a 3-4 node trial configuration
-for performance qualification with Verizon Wireless.  Built tools for
-estimating SMS throughput for high-speed ITV (interactive TV) voting.
 \item Developed a "dialog XML" language (similar to voice XML) and plug-in
 system for handling stateful conversations for SMS and other messaging services.
 \item Recognized contributor to the JBoss project, specifically features for
-the JBoss MQ (messaging) and JBoss Cache products.  Additionally, a
-contributor of numerous bug fixes and support for other free software projects.
+the JBoss MQ (messaging) and JBoss Cache products, such as scheduled and
+delayed message delivery which are now standard JMS features.
 \end{items}
 
 \employer{Openwave} \location{Bellevue, Washington} 
 
 \dates{Senior Software Developer, 2000--2002}
 Responsible for creating components to support enterprise-level services
-for determining mobile handset presence and location.  Responsible for own
+for determining mobile handset presence and location. Responsible for own
 unit-testing, end-to-end testing, technical requirements and design
 documents.
-% Technologies used included Java, C++, XML, PHP, UNIX
-% scripts, threading, PL/SQL, etc.
 \begin{items}
 \item Assisted developers in two teams simultaneously; often reassigned
 to support tasks that were behind schedule.  Mentored UI team in
@@ -66,16 +124,14 @@ XML document delivery.  See http://e-xml.sf.net
 \end{items}
 
 \dates{Software Developer 1999--2000}
-Used and leveraged existing components to build instant messaging application.
-Used mobile protocols and network simulators for delivery.  Learned to write
-detailed design documentation and specifications based on non-technical
-customer requirements; used UML and the Unified Process.  Consistently finished
-all tasks ahead of schedule.  When free, assisted mobile phone interface team.
+Used and leveraged existing components to build an instant messaging
+application supporting mobile presence. Used mobile protocols and network
+simulators for testing on SS7 networks.  Used UML and the Unified Process.
 
 \employer{Bellevue Community College} \location{Kirkland, Washington} 
 \dates{Instructor, 2001--2002} 
-Part-time computer instruction, teaching UNIX.  Responsible for creation
-of course materials and content.  
+Computer instruction, teaching a class on UNIX. Responsible for creation
+of course materials and content.
 
 \employer{Catdaddy Games} \location{Bellevue, Washington} 
 \dates{Software Developer, 1998--2000} 
@@ -96,9 +152,9 @@ language teaching approach.
 
 \employer{Starwave (Presently Go.com)} \location{Bellevue, Washington} 
 \dates{Intern, 1996--1997} 
-Worked with the online commerce division to develop database system for
-commerce transactions.  Later transferred to work with online fantasy sports
-games (pre-Servlet, but Java-based).  Sole author of utility software for
+Worked with the online commerce division to develop a database system for
+commerce transactions. Later transferred to work with online fantasy sports
+games (pre-Servlet, but Java-based). Sole author of utility software for
 scheduling services, live systems monitoring, bug-tracking, etc.  Learned Java,
 Perl, ASP, SQL, etc.
 
@@ -121,54 +177,45 @@ troubleshooting. \\ Refer to www.\-steelsilhouettes.\-com
 \employer{University of Washington}
 \location{Seattle, Washington}
 \dates{1995--1999} 
-Awarded Bachelor of Science degree.  Major in applied computational math
-science.  Dean's list.
+Awarded Bachelor of Science degree.  Major in applied computational math science.
 
 \employer{Tohoku University}
 \location{Sendai, Japan}
 \dates{1997--1998 } 
-Exchange student in Japan.  Part-time research in Japanese character
-recognition, focus on language skills.
+Exchange student in Japan in the engineering school. Part-time
+research in Japanese character recognition, but mostly focused on
+language skills.
 
 \subsection*{Technologies}
 
 \begin{multicols}{2}
 \begin{items}
-\item[Java] 8 years.  JUnit, J2EE, JDBC, XML, JNDI, Servlets, Code Coverage.
-\item[C/C++] 4 years.  Solaris cc, gcc, VC++, STL,
-POSIX.
-\item[UNIX] 10+ years.  Solaris, Linux, FreeBSD.
-\item[Windows] Many years.  DOS, Windows NT, XP, 98, Office, etc.
-\item[XML] 6 years.  XSLT, SAX, DOM.
-\item[OOP] Design patterns, use of UML.
-\item[Perl] 1 year experience.
-\item[PHP] 6 months.
-\item[Networks] 4 years.  TCP/IP, HTTP, HTTPS, SMPPv3, UDP.
-\item[Shells] 2 years.  Bourne, BASH.
-\item[SQL] 2 years, Oracle 7/8, SQL Server, stored procedures.
-\item[LDAP] 3 months.  JNDI and Netscape LDAP libraries.
-\item[HDML/WML] 1 year.
-\item[HTML]  4 years.  CSS, XHTML, JavaScript, site maintainence, etc.
-\item[make/Ant]  4 and 5 years.
-\item[Ver Control]  4 years.  Perforce, CVS, SVN, Clearquest, VSS.
-\item[Pascal]  6+ years.  OOP in Borland Pascal 7.0.
-\item[Scheme] 3 months.
-\item[ASPs] 3 months.
-\item[DirectX] 6 months.
-\item[UML] 1 year.  Rational Rose, Visio.
-\item[3D Max] 1+ years.  Plugin library interface.
-% \item[\LaTeX] 4+ years.
-% \item[VI] 6+ years.
-\item[Assembler] Wrote basic compiler.
 \end{items}
+\item[Java] 15 years. JEE including JPA, CDI; Maven/Gradle. 
+\item[Ver Control] git, Subversion, Perforce, CVS, Clearquest, VSS.
+\item[Puppet] 4 years, Ruby templates, large deployments and config management.
+\item[C/C++] 4 years. Solaris cc, gcc, VC++, STL, POSIX.
+\item[Perl] 4 years experience.
+\item[JavaScript] 2+ years, mostly Rhino scripting and some UI.
+\item[Python] 1 year experience.
+\item[Cassandra] 1 year, deployment and schema design.
+\item[SQL] 4 years, Oracle, MySQL, SQL Server, stored procedures.
+\item[UNIX] 15+ years. Linux (OEL/RHEL 5/6), Solaris, BSD variants.
+\item[Networks] 4 years. TCP/IP, HTTP, HTTPS, SMPPv3, UDP.
+\item[Shells] 6 years. Bourne, BASH.
+\item[Others] Hibernate, Windows, XML, OOP, UML, LDAP, make, ant, Pascal,
+Scheme, Ruby, ASP, DirectX, 3D Max, Assembler and compiler design.
 \end{multicols}
 
-\subsection*{External Activities}
+\subsection*{Activities and Interests}
 \begin{items}
+\item Cooking
+\item Sea kayaking
+\item Road cycling and touring
+\item Japanese culture and language, volunteering at anime conventions
+\item Hiking and mountaineering
+\item Backcountry skiing
 \item Free Software
-\item Sea and flat water kayaking
-\item Japanese guest liaison at anime conventions
-\item Washington Trails Association member
 \end{items}
 
 % \sectiontitle{Operating Systems, Hardware}
